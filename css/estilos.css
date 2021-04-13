@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gloria+Hallelujah&family=Oswald:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#content{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid #c7c538;
+}
+
+#sup{
+    background: #c7c538; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+#menu li{
+    list-style: none;
+    padding: 15px 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 32px;
+}
+
+#menu li:hover{
+    background: #000000;
+    color: #ffffff;
+    transition: 500ms linear; 
+}
+
+#video video{
+    width: 100%;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info img{
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    border-radius: 150px;
+}
+
+.profile{
+    margin: 25px;
+}
+
+.profile h1{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.profile p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.profile h2{
+    font-family: 'Bree Serif', serif; 
+    font-size: 32px;
+    margin-top: 25px;
+    padding: 10px 15px;
+    background-color: #c7c538;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.profile h2:hover{
+    background: #000000;
+    transition: 500ms linear; 
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form .header{
+    display: block;
+    font-family: 'Gloria Hallelujah', cursive;  
+    font-size: 64px;
+    margin-top: 25px;
+    margin-bottom: -25px;
+}
+
+.form .input{
+    width: 450px;
+    height: 30px;
+    margin: 20px 0;
+    padding: 20px 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #c7c538;
+    border-radius: 15px;
+}
+
+.form .input:hover{
+    background: #efefef;
+}
+
+.form .submit{
+    width: 250px;
+    margin: 0 auto; 
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    background: #c7c538;
+    font-family: 'Bree Serif', serif; 
+    font-size: 18px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+}
+
+.form .submit:hover{
+    background: #000000;
+    transition: 500ms linear; 
+}
+
+#pie{
+    height: 100px;
+    margin-top: 35px;
+    background: #c7c538; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    clear: both;
+}
+
+
